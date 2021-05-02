@@ -4,82 +4,40 @@
 <head>
     <title>Teemu Laaksonen</title>
     <meta charset="utf-8">
-
-    <style>
-        body {
-            background-color: #f6fff4;
-            font-family: Verdana, sans-serif;
-            text-align: center;
-        }
-
-        h1 {
-            text-align: center;
-            color: #006600;
-        }
-
-        h2 {
-            text-align: center;
-            color: #006600;
-        }
-
-        a:link {
-            color: #006600;
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: teal;
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: turquoise;
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        a:active {
-            color: yellowgreen;
-            background-color: transparent;
-            text-decoration: underline;
-        }
-
-        .list-item {
-            list-style-position: inside;
-        }
-
-        footer {
-            padding: 15px;
-            background-color: darkgrey;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/portfolio_styles.css">
 </head>
 
 <body>
 
     <!-- Yläosan kuva navigointipalkin yläpuolella jokaisella sivulla. -->
-    <img src="images/teemu_laaksonen_scaled.jpg" alt="Teemu Laaksonen">
-    <h1 style="text-align: center; color:#006c9e;">Teemu Laaksonen</h1>
+    <div class="top_section">
+        <img src="images/teemu_laaksonen_scaled.jpg" alt="Teemu Laaksonen">
+        <h1 class="main_title">Teemu Laaksonen</h1>
+    </div>
+
     <!-- Navigointi linkkeineen, käytetään nav-luokittelua mahdollisten tyylien lisäämiseksi jatkossa -->
-    <nav>
+    <nav class="nav_bar">
         <a href="index.html">Etusivu</a>
         <a href="harrastukset.html">Harrastukset</a>
         <a href="portfolio.html">Portfolio</a>
     </nav>
+
     <!-- Sivuston pääsisältö alkaa tästä -->
-    <p>Työskentelen rakennusteollisuudessa avainasiakasvastaavana ja olen valmistunut tradenomiksi Satakunnan
-        ammattikorkeakoulusta vuonna 2016. <br>
-        Olen pitkään halunnut tietotekniikka-alalle ja aloitin ohjelmointiopinnot avoimen ammattikorkeakoulun puolella
-        keväällä 2020. <br> <strong> Tavoitteeni on päästä opiskelemaan tieto- ja viestintätekniikkaa
-            tutkintokoulutukseen syksyllä
-            2021.</strong></p>
+    <div class="text_box_type1">
+        <p>Työskentelen rakennusteollisuudessa avainasiakasvastaavana ja olen valmistunut tradenomiksi Satakunnan
+            ammattikorkeakoulusta vuonna 2016. <br>
+            Olen pitkään halunnut tietotekniikka-alalle ja aloitin ohjelmointiopinnot avoimen ammattikorkeakoulun
+            puolella
+            keväällä 2020. <br> <strong> Tavoitteeni on päästä opiskelemaan tieto- ja viestintätekniikkaa
+                tutkintokoulutukseen syksyllä
+                2021.</strong></p>
+    </div>
+
     <!-- Lista, bullettien siirto reunasta asettamalla lista div-elementtiin ja määrittämällä sille luokka, joka saa tyylimäärittelyn style-osiossa -->
-    <div class="list-item">
+    <div class="text_box_type2">
         <h2><a href="harrastukset.html">Harrastukset</a></h2>
         <p>Olen aina ollut kiinnostunut tietotekniikasta ja alaan liittyviä harrastuksiani ovat mm:</p>
-        <ul>
+        <ul class="list-item">
             <li>Tietokonekomponentit ja ylikellotus</li>
             <li>Ohjelmointi</li>
             <li>Videopelit ja pelisisällön tuottaminen <a
@@ -89,7 +47,7 @@
         </ul>
         <p>Tietotekniikan lisäksi harrastan musiikkia, retkeilyä ja ruoanlaittoa.</p>
     </div>
-    <br>
+
     <!-- Footer alkaa tästä -->
     <footer>
         <h2>Yhteystiedot</h2>
@@ -99,7 +57,6 @@
         <p><i><a href="https://fi.linkedin.com/in/teemu-laaksonen-b810ba183/%7Bcountry%3Dde%2C+language%3Dde%7D?trk=people-guest_profile-result-card_result-card_full-click">LinkedIn
                     - Teemu Laaksonen</a></i>
         </p>
-
     </footer>
 </body>
 

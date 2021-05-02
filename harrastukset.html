@@ -4,111 +4,71 @@
 <head>
     <title>Teemu Laaksonen</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/portfolio_styles.css">
 
-    <style>
-        body {
-            background-color: #f6fff4;
-            font-family: Verdana, sans-serif;
-            text-align: center;
-        }
 
-        h1 {
-            text-align: center;
-            color: #006600;
-        }
-
-        h2 {
-            text-align: center;
-            color: #006600;
-        }
-
-        a:link {
-            color: #006600;
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        a:visited {
-            color: teal;
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: turquoise;
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        a:active {
-            color: yellowgreen;
-            background-color: transparent;
-            text-decoration: underline;
-        }
-
-        .list-item {
-            list-style-position: inside;
-        }
-
-        footer {
-            padding: 15px;
-            background-color: darkgrey;
-        }
-    </style>
 </head>
 
 <body>
     <!-- Yläosan kuva navigointipalkin yläpuolella jokaisella sivulla. -->
-    <img src="images/teemu_laaksonen_scaled.jpg" alt="Teemu Laaksonen">
-    <h1 style="text-align: center; color:#006c9e;">Teemu Laaksonen</h1>
+    <div class="top_section">
+        <img src="images/teemu_laaksonen_scaled.jpg" alt="Teemu Laaksonen">
+        <h1 class="main_title">Teemu Laaksonen</h1>
+    </div>
     <!-- Navigointi linkkeineen, käytetään nav-luokittelua mahdollisten tyylien lisäämiseksi jatkossa -->
-    <nav>
+    <nav class="nav_bar">
         <a href="index.html">Etusivu</a>
         <a href="harrastukset.html">Harrastukset</a>
         <a href="portfolio.html">Portfolio</a>
     </nav>
 
     <!-- Sivun pääsisältö alkaa tästä -->
-    <h1>Harrastukset</h1>
+    <div class="text_box_type1">
+        <h1>Harrastukset</h1>
 
-    <h2>Tietokoneet ja tietotekniikka</h2>
-    <p>Rakensin ensimmäisen oman tietokoneeni 14-vuotiaana kaverini avustuksella. Olen sen jälkeen kasannut ja asentanut
-        kymmeniä tietokoneita tutuille ja kavereille. <br>
-        Olen toiminut myös tietotekniikka-myyjänä isossa elektroniikaketjussa, jonka aikana sain tehdä tietokoneiden
-        kasausta ammatikseni muiden tehtävien ohella.</p>
-    <br>
-    <img src="images/tietokone1_pieni.jpg" alt="Kuva kasatusta tietokoneesta">
-    <img src="images/tyopoyta_pieni.jpg" alt="Kuva tietokonepöydästä">
-    <img src="images/tietokone2_pieni.jpg" alt="Kuva valaistusta tietokoneesta">
-
-    <h2>Ohjelmointi</h2>
-    <p>Olen ollut pitkään kiinnostunut ohjelmoinnista ja kokeilin ohjelmoinnin aloittamista AMKoodari-opinnoilla
-        keväällä 2020. Tähän mennessä takana on opintoja seuraavista kielistä ja kokonaisuuksista:</p>
-    <!-- Lista, bullettien siirto reunasta asettamalla lista div-elementtiin ja määrittämällä sille luokka, joka saa tyylimäärittelyn style-osiossa -->
-    <div class="list-item">
-        <ul>
-            <li>HTML & CSS</li>
-            <li>Javasript</li>
-            <li>Python</li>
-            <li>Käyttäjäkokemus</li>
-            <li>Moderni ohjelmistotuotanto-alkeet</li>
-        </ul>
+        <h2>Tietokoneet ja tietotekniikka</h2>
+        <p>Rakensin ensimmäisen oman tietokoneeni 14-vuotiaana kaverini avustuksella. Olen sen jälkeen kasannut ja
+            asentanut
+            kymmeniä tietokoneita tutuille ja kavereille. <br>
+            Olen toiminut myös tietotekniikka-myyjänä isossa elektroniikaketjussa, jonka aikana sain tehdä tietokoneiden
+            kasausta ammatikseni muiden tehtävien ohella.</p>
+        <br>
+        <img src="images/tietokone1_pieni.jpg" alt="Kuva kasatusta tietokoneesta">
+        <img src="images/tyopoyta_pieni.jpg" alt="Kuva tietokonepöydästä">
+        <img src="images/tietokone2_pieni.jpg" alt="Kuva valaistusta tietokoneesta">
     </div>
 
-    <br>
+    <div class="text_box_type2">
+        <h2>Ohjelmointi</h2>
+        <p>Olen ollut pitkään kiinnostunut ohjelmoinnista ja kokeilin ohjelmoinnin aloittamista AMKoodari-opinnoilla
+            keväällä 2020. Tähän mennessä takana on opintoja seuraavista kielistä ja kokonaisuuksista:</p>
+        <!-- Lista, bullettien siirto reunasta asettamalla lista div-elementtiin ja määrittämällä sille luokka, joka saa tyylimäärittelyn style-osiossa -->
+        <div class="list-item">
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Javasript</li>
+                <li>Python</li>
+                <li>Käyttäjäkokemus</li>
+                <li>Moderni ohjelmistotuotanto-alkeet</li>
+            </ul>
+        </div>
+    </div>
 
-    <h2>Twitch-kanava ja videopelisisällön tuottaminen</h2>
-    <p>Perustin oman harrastusmielisen <a href="https://www.twitch.tv/humminbirdie/">Twitch-kanavan</a> vuonna 2016
-        kehittääkseni englanninkielen taitoani ja osaamistani sisällöntuotannossa. Kanava on pienestä koostaan
-        huolimatta aktiivisen yhteisön virtuaalinen tapaamispaikka, jossa aikaa vietetään
-        videopelien pelaamisen lisäksi keskustelemalla ajankohtaisista aiheista, ruoanlaiton parissa, sekä erityisesti
-        kesäisin retkeilemällä lähiympäristössä.<br> Vuoden 2021 alussa aktivoin vanhan <a
-            href="https://www.youtube.com/channel/UC9Ub2nBdy78lAmXaSmizIVw/">YouTube-kanavani</a> satunnaisen
-        videosisällön jakamiseksi. <br>
-    </p>
-    <img src="images/tyopoyta2_pieni.jpg" alt="Kuva työpisteestä">
-    <img src="images/stream_2_pieni.png" alt="Kuva Twitch-lähetyksestä">
-    <br><br>
+    <div class="text_box_type1">
+        <h2>Twitch-kanava ja videopelisisällön tuottaminen</h2>
+        <p>Perustin oman harrastusmielisen <a href="https://www.twitch.tv/humminbirdie/">Twitch-kanavan</a> vuonna 2016
+            kehittääkseni englanninkielen taitoani ja osaamistani sisällöntuotannossa. Kanava on pienestä koostaan
+            huolimatta aktiivisen yhteisön virtuaalinen tapaamispaikka, jossa aikaa vietetään
+            videopelien pelaamisen lisäksi keskustelemalla ajankohtaisista aiheista, ruoanlaiton parissa, sekä
+            erityisesti
+            kesäisin retkeilemällä lähiympäristössä.<br><br> Vuoden 2021 alussa aktivoin vanhan <a
+                href="https://www.youtube.com/channel/UC9Ub2nBdy78lAmXaSmizIVw/">YouTube-kanavani</a> satunnaisen
+            videosisällön jakamiseksi. <br>
+        </p>
+        <img src="images/tyopoyta2_pieni.jpg" alt="Kuva työpisteestä">
+        <img src="images/stream_2_pieni.png" alt="Kuva Twitch-lähetyksestä">
+    </div>
+
     <!-- Footer alkaa tästä -->
     <footer>
         <h2>Yhteystiedot</h2>
@@ -118,7 +78,6 @@
         <p><i><a href="https://fi.linkedin.com/in/teemu-laaksonen-b810ba183/%7Bcountry%3Dde%2C+language%3Dde%7D?trk=people-guest_profile-result-card_result-card_full-click">LinkedIn
                     - Teemu Laaksonen</a></i>
         </p>
-
     </footer>
 </body>
 

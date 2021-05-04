@@ -1,7 +1,5 @@
-[{
-    "nimi": "Mikko Mallikas",
-    "ikä": 5
-}, { 
-    "nimi": "Anna Malli",
-"ikä": "12"
-}]
+{
+    "nimi" : "Mikko Mallikas",
+    "tunnit" : 10,
+    "paikka" : "Helsinki"
+}

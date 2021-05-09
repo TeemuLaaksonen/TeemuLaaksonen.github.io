@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout 960px -harjoitus</title>
+    <style>
+        body {
+            background-color: skyblue;
+            margin: 0px;
+            font-family: Verdana, sans-serif;
+            color: lightblue;
+            text-align: left;
+        }
+
+        #page {
+            width: 954px;
+            background-color: honeydew;
+            height: 654px;
+            border: 3px dashed darkslateblue;
+            margin: 0px auto;
+        }
+
+        #header {
+            background-color: hotpink;
+            height: 80px;
+        }
+
+        #header-logo,
+        #header-center,
+        #header-right {
+            width: 316px;
+            height: 48px;
+            float: left;
+            border: 1px solid pink;
+            background-color: indigo;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        #menu {
+            background-color: blueviolet;
+            width: 952px;
+            height: 24px;
+            text-align: center;
+            padding-top: 4px;
+            float: left;
+            border: 1px dashed darkturquoise;
+
+        }
+
+        #content {
+            background-color: cornflowerblue;
+            color: black;
+            text-align: center;
+            height: 508px;
+            width: 948px;
+            border: 3px inset orchid;
+            float: left;
+        }
+
+        #content-right,
+        #content-left {
+            width: 381px;
+            background-color: lightcyan;
+            float: left;
+            height: 255px;
+            padding: 20px;
+            border: 5px inset orchid;
+            border-radius: 20px;
+            margin: 75px 20px
+        }
+
+        #footer {
+            background-color: blueviolet;
+            width: 952px;
+            height: 25px;
+            text-align: center;
+            padding-top: 3px;
+            float: left;
+            border: 1px dashed darkturquoise;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Tästä alkaa PAGE -->
+    <div id="page">
+
+        <!-- Tästä alkaa HEADER -->
+        <div id="header">
+            <!-- Tästä alkaa LOGO -->
+            <div id="header-logo">
+                Tänne tulee logo tekstinä
+            </div>
+            <!-- Tästä alkaa CENTER -->
+            <div id="header-center">
+                Tänne tulee keskiosa tekstinä
+            </div>
+            <!-- Tästä alkaa RIGHT -->
+            <div id="header-right">
+                Tänne tulee oikea osa tekstinä
+            </div>
+        </div> <!-- HEADER PÄÄTTYY -->
+
+        <!-- Tästä alkaa MENU -->
+        <div id="menu">
+            ETUSIVU | HARRASTUKSET | PORTFOLIO
+        </div> <!-- MENU PÄÄTTYY -->
+
+        <!-- Tästä alkaa CONTENT -->
+        <div id="content">
+
+            <!-- Tästä alkaa CONTENT LEFT -->
+            <div id="content-left">
+                <p>Työskentelen rakennusteollisuudessa avainasiakasvastaavana ja olen valmistunut tradenomiksi
+                    Satakunnan
+                    ammattikorkeakoulusta vuonna 2016.
+                    Olen pitkään halunnut tietotekniikka-alalle ja aloitin ohjelmointiopinnot avoimen
+                    ammattikorkeakoulun
+                    puolella
+                    keväällä 2020. <br><br><br> <strong> Tavoitteeni on päästä opiskelemaan tieto- ja
+                        viestintätekniikkaa
+                        tutkintokoulutukseen syksyllä
+                        2021.</strong></p>
+            </div>
+
+            <!-- Tästä alkaa CONTENT RIGHT -->
+            <div id="content-right">
+                <p>Olen aina ollut kiinnostunut tietotekniikasta ja alaan liittyviä harrastuksiani ovat mm:</p>
+                <ul class="list-item">
+                    <li>Tietokonekomponentit ja ylikellotus</li>
+                    <li>Ohjelmointi</li>
+                    <li>Videopelit ja pelisisällön tuottaminen <a
+                            href="https://www.twitch.tv/humminbirdie/">Twitch-kanavalle</a> ja
+                        <a href="https://www.youtube.com/channel/UC9Ub2nBdy78lAmXaSmizIVw/">YouTubeen</a>
+                    </li>
+                </ul>
+                <br>
+                <p>Tietotekniikan lisäksi harrastan musiikkia, retkeilyä ja ruoanlaittoa.</p>
+            </div>
+        </div> <!-- CONTENT PÄÄTTYY -->
+
+        <!-- Tästä alkaa FOOTER -->
+        <div id="footer">
+                TÄHÄN VOISI LAITTAA FOOTER-TEKSTIÄ
+        </div>
+
+    </div> <!-- PAGE PÄÄTTYY -->
+
+
+</body>
+
+</html>

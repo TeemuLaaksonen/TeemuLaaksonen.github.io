@@ -4,32 +4,35 @@
 <head>
     <title>Harjoitus 5: Skaalautuva Layout</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles_harj5.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_harj6.css" type="text/css">
+    <script src="https://kit.fontawesome.com/0e9b0d1931.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Tästä alkaa PAGE -->
-    <div id="page">
+    <article class="page">
 
         <!-- Tästä alkaa HEADER -->
-        <div id="header">
-                Teemu Laaksonen
-        </div> <!-- HEADER PÄÄTTYY -->
+        <header>
+                <h1>Teemu Laaksonen</h1>
+        </header> <!-- HEADER PÄÄTTYY -->
 
         <!-- Tästä alkaa NAV -->
-        <div id="nav">
+        <nav>
             <ul>
-                <li><a class="active" href="#index">ETUSIVU</a></li>
-                <li><a href="#harrastukset">HARRASTUKSET</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a class="active" href="#index"><i class="fas fa-angle-right nav_icon "></i>ETUSIVU</a></li>
+                <li><a href="#harrastukset"><i class="fas fa-angle-right nav_icon"></i>HARRASTUKSET</a></li>
+                <li><a href="#portfolio"><i class="fas fa-angle-right nav_icon"></i>PORTFOLIO</a></li>
             </ul>
-        </div> <!-- NAV PÄÄTTYY -->
+        </nav> <!-- NAV PÄÄTTYY -->
 
         <!-- Tästä alkaa CONTENT -->
-        <div id="content">
+        <section>
             <!-- Tästä alkaa CONTENT LEFT -->
-            <div id="content-left">
-                <h1>Taustaa</h1>
+            <section class="content-left">
+                <h1><i class="fas fa-hand-point-down content_icon"></i>Taustaa</h1>
                 <p>Työskentelen rakennusteollisuudessa avainasiakasvastaavana ja olen valmistunut tradenomiksi
                     Satakunnan
                     ammattikorkeakoulusta vuonna 2016.
@@ -37,16 +40,16 @@
                     ammattikorkeakoulun
                     puolella
                     keväällä 2020. </p>
-                <h2>Tavoite</h2>
+                <h2><i class="fas fa-crosshairs content_icon"></i>Tavoite</h2>
                 <p><strong> Tavoitteeni on päästä opiskelemaan tieto- ja
                         viestintätekniikkaa
                         tutkintokoulutukseen syksyllä
                         2021.</strong></p>
-            </div>
+            </section>
 
             <!-- Tästä alkaa CONTENT RIGHT -->
-            <div id="content-right">
-                <h1>Harrastukset</h1>
+            <section class="content-right">
+                <h1><i class="fas fa-desktop content_icon"></i>Harrastukset</h1>
                 <p>Olen aina ollut kiinnostunut tietotekniikasta ja alaan liittyviä harrastuksiani ovat mm:</p>
                 <ul class="list-item">
                     <li>Tietokonekomponentit ja ylikellotus</li>
@@ -62,15 +65,15 @@
                     src="kannettava.png"
                     alt="Kannettava tietokone">
                 <p>Kuva: Kannettava tietokone</p>
-            </div>
-        </div> <!-- CONTENT PÄÄTTYY -->
+            </section>
+        </section> <!-- CONTENT PÄÄTTYY -->
 
         <!-- Tästä alkaa FOOTER -->
-        <div id="footer">
-            Yhteydenotot: teemu.laaksonen(at)outlook.com
-        </div>
+        <footer>
+            <i class="fas fa-envelope footer_icon"></i>Yhteydenotot: teemu.laaksonen(at)outlook.com
+        </footer>
 
-    </div> <!-- PAGE PÄÄTTYY -->
+    </article> <!-- PAGE PÄÄTTYY -->
 
 
 </body>

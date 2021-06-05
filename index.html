@@ -2,62 +2,328 @@
 <html lang="fi-FI">
 
 <head>
-    <title>Teemu Laaksonen</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/portfolio_styles.css">
+    <title>Teemu Laaksonen | Code for hire</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Teemu Laaksosen portfolio">
+    <meta name="keywords" content="teemu, laaksonen, portfolio, cv, ohjelmointi, ohjelmoija, Twitch, Youtube">
+    <meta name="author" content="Teemu Laaksonen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monoton&family=Rubik&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0e9b0d1931.js" crossorigin="anonymous"></script>
+    <link href="lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
+    <!-- MAIN CONTENT BEGINS -->
+    <main>
+        <!-- HEADER BEGINS-->
+        <header id="home">
+            <img src="images/portfolio_portrait1_neon_temp.png" alt="Teemu Laaksonen">
+            <div id="header_text">
+                <h1>Teemu Laaksonen</h1>
+                <p>- Code for hire -</p>
+            </div>
 
-    <!-- Yläosan kuva navigointipalkin yläpuolella jokaisella sivulla. -->
-    <div class="top_section">
-        <img src="images/teemu_laaksonen_scaled.jpg" alt="Teemu Laaksonen">
-        <h1 class="main_title">Teemu Laaksonen</h1>
-    </div>
+        </header>
+        <!-- HEADER ENDS -->
 
-    <!-- Navigointi linkkeineen, käytetään nav-luokittelua mahdollisten tyylien lisäämiseksi jatkossa -->
-    <nav class="nav_bar">
-        <a href="index.html">Etusivu</a>
-        <a href="harrastukset.html">Harrastukset</a>
-        <a href="portfolio.html">Portfolio</a>
-    </nav>
 
-    <!-- Sivuston pääsisältö alkaa tästä -->
-    <div class="text_box_type1">
-        <p>Työskentelen rakennusteollisuudessa avainasiakasvastaavana ja olen valmistunut tradenomiksi Satakunnan
-            ammattikorkeakoulusta vuonna 2016. <br>
-            Olen pitkään halunnut tietotekniikka-alalle ja aloitin ohjelmointiopinnot avoimen ammattikorkeakoulun
-            puolella
-            keväällä 2020. <br> <strong> Tavoitteeni on päästä opiskelemaan tieto- ja viestintätekniikkaa
-                tutkintokoulutukseen syksyllä
-                2021.</strong></p>
-    </div>
+        <!-- NAV BEGINS-->
+        <nav id="nav">
+            <a href="#home">Aloitus</a>
+            <a href="#history">Historia</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#hobbies">Harrastukset</a>
+            <a href="#info">Yhteystiedot</a>
+        </nav>
+        <!-- NAV ENDS-->
 
-    <!-- Lista, bullettien siirto reunasta asettamalla lista div-elementtiin ja määrittämällä sille luokka, joka saa tyylimäärittelyn style-osiossa -->
-    <div class="text_box_type2">
-        <h2><a href="harrastukset.html">Harrastukset</a></h2>
-        <p>Olen aina ollut kiinnostunut tietotekniikasta ja alaan liittyviä harrastuksiani ovat mm:</p>
-        <ul class="list-item">
-            <li>Tietokonekomponentit ja ylikellotus</li>
-            <li>Ohjelmointi</li>
-            <li>Videopelit ja pelisisällön tuottaminen <a
-                    href="https://www.twitch.tv/humminbirdie/">Twitch-kanavalle</a> ja
-                <a href="https://www.youtube.com/channel/UC9Ub2nBdy78lAmXaSmizIVw/">YouTubeen</a>
-            </li>
-        </ul>
-        <p>Tietotekniikan lisäksi harrastan musiikkia, retkeilyä ja ruoanlaittoa.</p>
-    </div>
+        <!-- TOP CONTENT BEGINS -->
+        <section class="content_top">
+            <h2 class="hide">Piilotettu</h2>
+            <section id="reviews">
+                <h2 class="hide">Piilotettu</h2>
+                <div class="review_text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <p>"Yllättävä, positiivinen ja toisinaan kekseliäs."</p>
+                </div>
+                <div class="review_text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <p>"Mauttomuudessaankin varsin nerokas"</p>
+                </div>
+                <div class="review_text">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <p>"Epätavallinen, mutta huoliteltu kokonaisuus."</p>
+                </div>
+            </section>
+            <section class="introduction_text">
+                <h2> Ohjelmointia omintakeisella otteella </h2>
+                <p>Kun yhdistetään intohimo ohjelmointiin, rauhallinen ja määrätietoinen asenne, sekä ratkaisukeskeinen
+                    ote haasteista selviämiseen, saadaan lopputuloksena sisukas ja asiastaan kiinnostunut koodarinalku,
+                    joka ei pelkää tarttua toimeen. Ohjelmointiurani alkoi vuonna 2019 unelmalla vaihtaa tuttu ja
+                    turvallinen liiketalouden ala mielenkiintoiseen ja luovuuttani ruokkivaan tietotekniikan alaan.
+                    Vuonna 2020 päätin opiskella itseni tietotekniikka-alalle.</p>
+                <strong>Nyt olen suorittanut perusteet ja olen valmis oppimaan lisää
+                    tositoimissa.</strong>
+            </section>
+        </section>
+        <!-- TOP CONTENT ENDS -->
 
-    <!-- Footer alkaa tästä -->
-    <footer>
-        <h2>Yhteystiedot</h2>
-        <address>
-            <p><b> Sähköposti: </b><i>teemu.laaksonen@outlook.com</i></p>
-        </address>
-        <p><i><a href="https://fi.linkedin.com/in/teemu-laaksonen-b810ba183/%7Bcountry%3Dde%2C+language%3Dde%7D?trk=people-guest_profile-result-card_result-card_full-click">LinkedIn
-                    - Teemu Laaksonen</a></i>
-        </p>
-    </footer>
+        <!-- BOXED CONTENT BEGINS -->
+        <section id="history">
+            <h2>Historiaani työelämästä ja sen ulkopuolelta</h2>
+            <article class="content_left_1">
+                <h3>Työhistoria</h3>
+                <ul>
+                    <li>Suomen Graniittikeskus Oy, avainasiakasvastaava ja projektipäällikkö (2019 - )</li>
+                    <li>SKT-Granit Oy, avainasiakasvastaava ja projektipäällikkö (2017 - )</li>
+                    <li>Power Finland Oy, tietotekniikan ratkaisumyyjä ja osastovastaava (2012 - 2017)</li>
+                </ul>
+                <br>
+                <p>Olen työurani aikana kartoittanut vankkaa kokemusta avainasiakkuuksien kanssa toimimesta,
+                    asiakaspalvelusta, projektimyynnistä ja -hallinnasta, sekä ongelmien ratkaisemisesta ja
+                    ratkaisujen
+                    myymisestä. </p>
+            </article>
+
+            <article class="content_left_1">
+                <h3>Koulutus</h3>
+                <ul>
+                    <li>Satakunnan ammattikorkeakoulu, Kansainvälisen liiketoiminnan Tradenomi (2016)</li>
+                    <li>Haaga-Helia ammattikorkeakoulu, Avoin AMK, Moderni web- ja ohjelmistotekniikka (2021)</li>
+                    <li>Kaakkois-Suomen ammattikorkeakoulu, Avoin AMK, ohjelmoinnin perusteet (2020)</li>
+                </ul>
+                <br>
+                <p> Ohjelmointiopintoni ovat sisältäneet opintojaksoja mm. seuraavista aiheista: Bootsrap,
+                    Javascript,
+                    jQuery, JSON, Firebase,
+                    käyttäjäkokemus (tutkimus ja raportointi), Pythonin perusteet, sekä kattavasti HTML- ja
+                    CSS-koulutuksia.</p>
+            </article>
+        </section>
+        <!-- BOXED CONTENT ENDS -->
+
+
+
+        <!-- PORTFOLIO BEGINS -->
+        <section id="portfolio">
+            <h2 class="hide">Piilotettu</h2>
+            <article>
+                <h2>Portfolio</h2>
+                <p class="introduction_text2">Aloitin tietotekniikka-harrastamisen jo 8 vuotiaana emuloimalla uusimpia
+                    Pokémon-pelejä isäni työkäyttöön hankkimalla pöytäkoneella. Noista vuosista on kokemusta karttunut
+                    jo onneksi vähän muustakin. Tunnen komponentit, oheislaitteet ja yleisimmät ohjelmistot paremmin
+                    kuin omat taskuni. Olen viimeisen 15 vuoden aikana kasannut kymmeniä pöytäkoneita, korjannut
+                    mobiililaitteita ja toiminut IT-tukena tutuille ja tuntemattomille. Viimeiset vuodet olen tutustunut
+                    kuva- ja videoeditointiin, sekä lähetystekniikkaan oman Live-kanavan muodossa. Viimeisin ja tuorein
+                    aluevaltaus on ohjelmointi, jota olen opiskellut omatoimisesti jo lähes 2 vuotta. </p>
+
+                <strong>Alta löydät lisätietoa projekteistani tietotekniikan alalta.</strong>
+            </article>
+            <br><br><br>
+            <article class="content_box_1">
+                <h3>Twitch- ja YouTube-kanavat</h3>
+                <!-- <img src="images/Sub-cinematic_5.gif" alt="Gif-image Welcome To The Neon"> -->
+                <p>Aloitin omien suorien keskustelu- ja peliaiheisten lähetysten tekemisen säännöllisesti vuonna
+                    2017. Kanavan pienestä koosta huolimatta sen ylläpitäminen on opettanut valtavan määrän niin
+                    lähetystekniikasta, laitteistosta, kuin brändin luomisesta ja sisällöntuotannosta. </p>
+                <br>
+                <a href="https://www.youtube.com/channel/UC9Ub2nBdy78lAmXaSmizIVw">
+                    <img class="logo" src="images/yt_logo_rgb_dark.png" alt="Linkki Twitch-palveluun Teemun kanavalle">
+                </a>
+                <a href="https://twitch.tv/humminbirdie">
+                    <img class="logo" src="images/Twitch_UnextrudedWordmarkPurple.png"
+                        alt="Linkki Youtube-palveluun Teemun kanavalle">
+                </a>
+                <br><br>
+                <p><b>Livelähetykset numeroina:</b></p>
+
+                <br>
+                <ul>
+                    <li>1100+ tuntia livelähetyksiä</li>
+                    <li>8500+ uniikkia katsojaa</li>
+                    <li>8400+ tuntia katsojien katsomia livelähetyksiä</li>
+                    <li>400+ lähetystä</li>
+                </ul>
+
+
+                <br><br>
+                <div class="videos">
+                    <iframe width="382" height="214" src="https://www.youtube.com/embed/nRwA7qTC0t0"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe
+                        src="https://clips.twitch.tv/embed?clip=CallousCrispyNeanderthalTBCheesePull-G7RhBQlAs9j3Bj8n&parent=teemulaaksonen.github.io"
+                        height="212" width="378" allowfullscreen>
+                    </iframe>
+                </div>
+            </article>
+            <br>
+            <br>
+
+            <article class="content_box_2">
+                <h3>Ohjelmointiopinnot ja -projektit</h3>
+                <p>Olen opintojeni aikana saanut mahdollisuuden opiskella kattavasti ohjelmoinnin perusteita
+                    raportoinnista koodin kirjoittamiseen. Alla valitusti osa opintojaksojen tehtävistä ja
+                    lopputöistä.</p>
+                <br>
+                <ul>
+                    <li>Käyttäjäkokemustutkimus; Käyttäjätiedon keräys, haastattelut ja transkriptioiden luonti,
+                        affiniteettianalyysi, sekä palvelukonseptin luonti (Haaga-Helia 2021) </li>
+                    <li>Oman verkkosivukonseptin luonti, toteutus ja testaus (Vegesti-palvelukonsepti, Haaga-Helia
+                        2021)</li>
+                    <li>Itsenäinen tutkimustyö; Ohjelmiston kehitysmallin määrittely ja testausraportoinnin
+                        perusteet (Haaga-Helia 2021)</li>
+                </ul>
+                <div class="thumbnails_section">
+                    <a href="images/kollaasi2/verkkosivut.png" data-lightbox="portfolio"
+                        data-title="Ensimmäiset responsiiviset verkkosivut konseptipalvelulle"><img
+                            class="thumbnail_adjusted" src="images/kollaasi2/verkkosivut.png"
+                            alt="Kuva Vegesti-verkkosivuista" /></a>
+
+                    <a href="images/kollaasi2/raportti.png" data-lightbox="portfolio"
+                        data-title="Käyttäjätutkimusraportin synopsis"><img class="thumbnail_adjusted"
+                            src="images/kollaasi2/raportti.png" alt="Kuva raportin tiivistelmästä" /></a>
+
+
+                    <a href="images/kollaasi2/javascriptit.png" data-lightbox="portfolio"
+                        data-title="Javascript -ohjelmointia alkeiskurssilla"><img class="thumbnail_adjusted"
+                            src="images/kollaasi2/javascriptit.png" alt="Kuva Javascript-koodista" /></a>
+
+                    <a href="images/kollaasi2/kayttajapolku.png" data-lightbox="portfolio"
+                        data-title="Käyttäjäpolku-kuvaus osana konseptisuunnittelua"><img class="thumbnail_adjusted"
+                            src="images/kollaasi2/kayttajapolku.png" alt="Kuva käyttäjäpolkukaaviosta" /></a>
+                </div>
+            </article>
+            <br><br><br>
+        </section>
+        <!-- PORTFOLIO ENDS -->
+
+        <!-- HOBBIES BEGINS -->
+        <section id="hobbies">
+            <h2 class="hide">Piilotettu</h2>
+            <article>
+                <h2>Harrastukset: Enemmän minusta</h2>
+                <p class="introduction_text2">Rakastan ruoanlaittoa, artesaanioluita, musiikkia ja ystävien kanssa
+                    vietettyä aikaa. Kuvat
+                    kertonevat enemmän, kuin tuhannet sanat, joten alla sanoja kuvina.</p>
+                <div class="thumbnails_section">
+                    <a href="images/kollaasi/burger1.jpg" data-lightbox="etusivu"
+                        data-title="Burgeria kotigrillistä"><img class="thumbnail" src="images/kollaasi/burger1.jpg"
+                            alt="Burgeria kotigrillistä" /></a>
+
+                    <a href="images/kollaasi/burger2.jpg" data-lightbox="etusivu" data-title="Lisää burgereita"><img
+                            class="thumbnail" src="images/kollaasi/burger2.jpg" alt="Lisää burgereita" /></a>
+
+                    <a href="images/kollaasi/pizza1.jpg" data-lightbox="etusivu"
+                        data-title="Kotona paistettua pizzaa"><img class="hide" src="images/kollaasi/pizza1.jpg" alt="Kotona paistettua pizzaa" /></a>
+
+                    <a href="images/kollaasi/pizza2.jpg" data-lightbox="etusivu" data-title="Kotona leivottua pizzaa">
+                        <img class="hide" src="images/kollaasi/pizza2.jpg" alt="Kotona leivottua pizzaa" /></a>
+
+                    <a href="images/kollaasi/ooni.jpg" data-lightbox="etusivu"
+                        data-title="Pizzan teon uusi ulottuvuus; Ooni pizzauuni">
+                        <img class="hide" src="images/kollaasi/ooni" alt="Ooni pizzauuni terassilla" /></a>
+
+                    <a href="images/kollaasi/sashimi.jpg" data-lightbox="etusivu" data-title="Sashimia"><img
+                            class="thumbnail" src="images/kollaasi/sashimi.jpg" alt="sashimiannos" /></a>
+
+                    <a href="images/kollaasi/bataattilohi.jpg" data-lightbox="etusivu"
+                        data-title="Bataattia, savulohta ja fetaa">
+                        <img class="hide" src="images/kollaasi/bataattilohi.jpg" alt="Savulohiannos" /></a>
+
+                    <a href="images/kollaasi/rodenbach.jpg" data-lightbox="etusivu"
+                        data-title="Rodenbach Caractere Rogue on yksi lempioluistani"><img class="hide"
+                            src="images/kollaasi/rodenbach.jpg"
+                            alt="Rodenbach Charactere Rogue on yksi lempioluistani" /></a>
+
+                    <a href="images/kollaasi/proto.jpg" data-lightbox="etusivu" data-title="Lisää olutkuvia"><img
+                            class="thumbnail" src="images/kollaasi/proto.jpg" alt="Olutkuva" /></a>
+
+                    <a href="images/kollaasi/brewdog.jpg" data-lightbox="etusivu"
+                        data-title="Brewdogin maisteluannoksia">
+                        <img class="hide" src="images/kollaasi/brewdog.jpg" alt="Olutlaseja" /></a>
+
+                    <a href="images/kollaasi/cherry_sour.jpg" data-lightbox="etusivu"
+                        data-title="Harvinaisempia oluita">
+                        <img class="hide" src="images/kollaasi/cherry_sour.jpg" alt="Kirskikkaolutpullo" /></a>
+
+                    <a href="images/kollaasi/kitarat.jpg" data-lightbox="etusivu" data-title="Bändikämpän kitarateline">
+                        <img class="hide" src="images/kollaasi/kitarat.jpg" alt="Kitaroita telineessä" /></a>
+
+                    <a href="images/kollaasi/the_midnight.jpg" data-lightbox="etusivu"
+                        data-title="The Midnight Helsingin Tavastialla">
+                        <img class="hide" src="images/kollaasi/the_midnight.jpg" alt="The Midnight konserttikuva" /></a>
+
+                    <a href="images/kollaasi/hardcore_superstar.jpg" data-lightbox="etusivu"
+                        data-title="Hardcore Superstar keikalla Kuopiossa">
+                        <img class="hide" src="images/kollaasi/hardcore_superstar.jpg"
+                            alt="Hardcore Superstar keikkakuva" /></a>
+
+                    <a href="images/kollaasi/studio.jpg" data-lightbox="etusivu"
+                        data-title="Kotitoimiston työpiste, studio ja pelipiste">
+                        <img class="hide" src="images/kollaasi/studio.jpg" alt="Kuva kotistudiosta" /></a>
+
+                    <a href="images/kollaasi/led_pc.jpg" data-lightbox="etusivu"
+                        data-title="Kaverille rakennettuja projekteja">
+                        <img class="hide" src="images/kollaasi/led_pc.jpg" alt="Tietokone led-valoilla" /></a>
+                </div>
+            </article>
+        </section>
+        <!-- HOBBIES ENDS -->
+
+        <!-- FOOTER BEGINS -->
+        <footer id="info">
+            <!-- Footer Images -->
+            <div id="footer_images">
+                <a href="https://www.linkedin.com/in/teemu-laaksonen-b810ba183/"><img src="images/LI-In-Bug.png"
+                        alt="Linkki LinkedIn-palveluun"></a>
+                <a href="https://twitch.tv/humminbirdie"><img src="images/TwitchGlitchPurple.png"
+                        alt="Linkki Twitch-palveluun Teemun kanavalle"></a>
+                <a href="https://www.youtube.com/channel/UC9Ub2nBdy78lAmXaSmizIVw"><img src="images/yt_icon_rgb.png"
+                        alt="Linkki Youtube-palveluun Teemun kanavalle"></a>
+            </div>
+            <address>teemu.laaksonen(at)outlook.com</address>
+        </footer>
+        <!-- FOOTER ENDS -->
+
+    </main>
+    <!-- MAIN CONTENT ENDS -->
+
+
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+            'fitImagesInViewport': true
+        })
+    </script>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
 </body>
 
 </html>

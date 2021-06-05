@@ -1,0 +1,358 @@
+/* GENERAL STYLES */
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+    text-shadow: 1px 1px black;
+}
+
+h2 {
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    text-shadow: 1px 1px black;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 0.5em;
+    text-shadow: 1px 1px black;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(142,13,148,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+main {
+    max-width: 60em;
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Rubik', sans-serif;
+    box-shadow:     0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px rgb(228, 146, 248);
+}
+
+/* HEADER STYLES */
+
+header {
+    border-bottom: 5px solid magenta;
+    display: block;
+}
+
+header img {
+    width: 25%;
+    height: auto;
+    padding-left: 10%;
+}
+
+#header_text {
+    float: right;
+    width: 65%;
+    text-align: center;
+    padding-top: 6.40625em;
+}
+
+header p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+/* NAVIGATION STYLES */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding-top: 1em;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9375em ;
+}
+
+nav a:hover {
+    background-color: rgba(243, 0, 243, 0.952);
+    box-shadow: 0 0 10px 5px #fff;
+}
+
+
+.sticky 
+/* sticky navbar */
+{
+    width: 60em;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+/* TOP CONTENT STYLES */
+
+#reviews {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+
+.fa-star {
+    padding-right: 5px;
+    margin-bottom: 1em;
+}
+
+.review_text {
+    text-align: center;
+    display: inline-block;
+    padding-top: 2em;
+}
+
+.introduction_text {
+    text-align: center;
+    padding: 1.5em;
+    border-bottom: 5px solid magenta;
+}
+
+.introduction_text h2, .introduction_text p {
+    padding-top: 2em;
+}
+
+/* BOXED CONTENT / HISTORY STYLES*/
+
+#history {
+    height: 997px;
+    background-image: url("images/half-face.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.content_left_1 {
+    float: left;
+    width: 27em;
+    height: 17em;
+    background-color: rgb(48, 0, 70);
+    margin-left: 7em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.625em;
+    border: 5px solid magenta;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+}
+
+/* PORTFOLIO STYLES */
+
+#portfolio {
+    border-top: 5px solid magenta;
+    clear: both;
+    text-align: center;
+}
+
+
+.introduction_text2 {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 1em;
+}
+
+.content_box_1, .content_box_2 {
+    margin: auto;
+    text-align: center;
+    width: 50em;
+    height: auto;
+    background-color: rgb(48, 0, 70);
+    border: 5px solid magenta;
+    border-radius: 10px;
+    padding: 0.5em;
+    list-style: inside;
+    box-shadow: 0 0 10px 5px #fff;
+}
+
+.videos iframe {
+    padding: 5px;
+}
+
+.thumbnail_adjusted {
+    height: 150px;
+    width: auto;
+    border-radius: 30px;
+    padding: 1em;
+}
+
+.kuva {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail {
+    width: 151px;
+    height: auto;
+    border-radius: 30px;
+    padding: 1em;
+}
+
+.thumbnails_section {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+/* HOBBIES STYLES */
+
+#hobbies {
+    text-align: center;
+    border-top: 5px solid magenta;
+}
+
+#hobbies p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+/* FOOTER STYLES */
+
+footer {
+    height: 5em;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Bebas Neue', cursive;
+    border-top: 5px solid magenta;
+}
+
+address {
+    padding-top: 2em;
+}
+
+footer img {
+    width: 1.5em;
+    height: auto;
+    float: left;
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
+/* SCREENS UNDER 960PX WIDTH */
+
+@media only screen and (max-width: 960px) {
+    header {
+        display: flex;
+    }
+    
+    header img {
+        width: 30%;
+        height: auto;
+    }
+    
+    #header_text {
+        clear: right;
+        width: 70%;
+        text-align: center;
+        padding-top: 6.40625em;
+    }
+
+    .content_box_1, .content_box_2 {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+
+    .sticky 
+/* sticky navbar HIDDEN WHEN UNDER 961PX */
+{
+    display: none;
+    width: 60em;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.9);
+}
+}
+
+/* SCREENS UNDER 660PX WIDTH */
+
+@media only screen and (max-width: 660px) {
+    main {
+        margin: auto;
+    }
+
+    header img {
+        display: none;
+    }
+    
+    #header_text {
+        clear: right;
+        width: 100%;
+        text-align: center;
+        padding: 2em;
+    }
+
+    #reviews {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    #review_text {
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        padding-top: 2em;
+    }
+    .content_left_1, .content_right {
+        text-align: center;
+        margin: auto;
+        clear: both;
+        width: auto;
+        height: auto;
+        background-color: rgb(48, 0, 70);
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding: 0.625em;
+        border: 5px solid magenta;
+        border-radius: 10px;
+    }
+
+    .content_left_1 li, .content_right li {
+        list-style-type: circle;
+        padding-top: 1em;
+    }
+
+ 
+
+    .content_box_1 li, .content_box_2 li {
+        list-style-type: circle;
+        padding-top: 1em;
+    }
+}

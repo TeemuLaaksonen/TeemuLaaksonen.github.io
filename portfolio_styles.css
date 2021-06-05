@@ -290,6 +290,7 @@ footer img {
 /* sticky navbar HIDDEN WHEN UNDER 961PX */
 {
     display: none;
+    position: relative !important;
     width: 60em;
     margin: auto;
     position: fixed;
@@ -324,7 +325,7 @@ footer img {
         width: 100%;
     }
 
-    #review_text {
+    .review_text {
         margin: auto;
         text-align: center;
         display: inline-block;

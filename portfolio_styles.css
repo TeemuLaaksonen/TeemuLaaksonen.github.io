@@ -20,7 +20,8 @@ h1 {
 }
 
 h2 {
-    padding-top: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
@@ -130,12 +131,9 @@ nav a:hover {
 
 .introduction_text {
     text-align: center;
-    padding: 1.5em;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
     border-bottom: 5px solid magenta;
-}
-
-.introduction_text h2, .introduction_text p {
-    padding-top: 2em;
 }
 
 /* BOXED CONTENT / HISTORY STYLES*/
@@ -169,10 +167,9 @@ nav a:hover {
     text-align: center;
 }
 
-
 .introduction_text2 {
     text-align: center;
-    padding: 1.5em;
+    padding: 1em;
 }
 
 .logo {
@@ -183,6 +180,8 @@ nav a:hover {
 
 .content_box_1, .content_box_2 {
     margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
     text-align: center;
     width: 50em;
     height: auto;
@@ -289,7 +288,6 @@ footer img {
     .sticky 
 /* sticky navbar HIDDEN WHEN UNDER 961PX */
 {
-    display: none;
     position: relative !important;
     width: 60em;
     margin: auto;

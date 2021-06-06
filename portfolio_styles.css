@@ -283,6 +283,7 @@ footer img {
         margin: auto;
         width: auto;
         height: auto;
+        margin-top: 2em;
     }
 
     .sticky 
@@ -329,7 +330,7 @@ footer img {
         display: inline-block;
         padding-top: 2em;
     }
-    .content_left_1, .content_right {
+    .content_left_1 {
         text-align: center;
         margin: auto;
         clear: both;
@@ -343,15 +344,22 @@ footer img {
         border-radius: 10px;
     }
 
-    .content_left_1 li, .content_right li {
+    .content_left_1 li {
         list-style-type: circle;
         padding-top: 1em;
     }
 
- 
-
     .content_box_1 li, .content_box_2 li {
         list-style-type: circle;
         padding-top: 1em;
+    }
+
+    .content_box_1 ul, .content_box_2 ul {
+        text-align: left;
+    }
+
+    .videos iframe {
+        padding: 0px;
+        margin-bottom: 5px;
     }
 }

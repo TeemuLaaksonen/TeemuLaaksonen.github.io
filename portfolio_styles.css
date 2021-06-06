@@ -289,7 +289,7 @@ footer img {
 /* sticky navbar HIDDEN WHEN UNDER 961PX */
 {
     position: relative !important;
-    width: 60em;
+    width: 0%;
     margin: auto;
     position: fixed;
     top: 0;
